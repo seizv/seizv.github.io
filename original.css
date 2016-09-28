@@ -1,0 +1,241 @@
+body,
+html {
+    width: 100%;
+    height: 100%;
+    
+}
+h1, p{
+  font-family: 'Indie Flower', cursive;
+  font-weight: 700;
+  margin:0;
+  padding:0;
+}
+.btn{
+  font-family: 'Dancing Script', cursive;
+}
+body,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Сomic Sans MS" Cursive;
+    font-weight: 600;
+}
+
+/* navigation */
+.topnav {
+    font-size: 18px;
+    border-bottom: 1px outset rgba(192, 192, 192, 0.5);
+    background: rgba(192, 192, 192, 0.9);
+    box-shadow: 0px 1px rgba(0, 0, 0, 0.3);
+}
+
+.topnav ul.navbar-nav li a {
+background: rgba(28, 28, 28, 0.1);
+color: #000;
+}
+
+.topnav ul.navbar-nav li a:hover,
+.topnav ul.navbar-nav li a:focus
+ {
+background: rgba(255, 255, 255, 0.5);
+color: #000;
+}
+
+.topnav .navbar-brand {
+  background: rgba(28, 28, 28, 0.0);
+  color: #000;
+}
+/*
+.topnav .navbar-brand:hover,
+.topnav .navbar-brand:focus {
+  background: rgba(255, 255, 255, 0.5);
+  color: #000;
+}*/
+/*end navigation*/
+
+/* main page*/
+
+.section{
+    text-align:center;
+  }
+
+
+  /* Backgrounds will cover all the section
+  * --------------------------------------- */
+  .section{
+    background-size: cover;
+
+  }
+
+  /* Defining each section background and styles
+  * --------------------------------------- */
+  #section0{
+    background-image: url(fon_home.jpg);
+    padding: 6% 0 0 0;
+  }
+  #section1{
+    background-image: url(fon4.jpg);
+    padding: 0% 0 0 0;
+  }
+  #section2{
+    background-image: url(fon1.jpg);
+    padding: 0% 0 0 0;
+  }
+  #section3{
+    background-image: url(contact3new.jpg);
+    padding: 0% 0 0 0;
+  }
+
+.intro-message {
+    position: relative;
+    padding-top: 20%;
+    padding-bottom: 20%;
+}
+
+/*Big header*/
+.intro-message > h1 {
+    margin-top: -50px;
+    text-shadow: 2px 1px 2px #000;
+    font-size: 6em;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.intro-divider {
+    width: 400px;
+    border-top: 1px solid #f8f8f8;
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+
+/*small header*/
+.intro-message > h3 {
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.6);
+    font-size: 3em;
+  color: black;
+}
+
+
+/* 1 page */
+hr.intro-divider {
+  border: 1px outset rgba(255, 255, 255, 0.2);
+  box-shadow: 1px 1px 1px rgba(0,0,0,0.6);
+  width: 100%;
+}
+/* social buttons */
+.btn {
+  display: inline-block;
+  color: #000;
+  border: 2px outset rgba(0, 0, 0, 0.9);
+  background: #C0C0C0;
+  text-shadow: 1px 1px 1px rgba(0,0,0, 20);
+  box-shadow: 3px 3px 3px rgba(0,0,0,0.5);
+  letter-spacing: 2px;
+  transition: 0.2s;
+}
+
+.btn:hover {
+  color: #fff;
+  border: 2px outset rgba(0, 0, 0, 0.9);
+  background: rgba(0,0,0, 0.9);
+  transform:scale(1.1);
+  transition: 0.2s;
+  text-shadow: 1px 1px 1px rgba(0,0,0, 20);
+  box-shadow: 3px 3px 3px rgba(0,0,0,0.5);
+  letter-spacing: 2px;
+}
+/*end main page*/
+
+/* about (2 page)*/
+
+h2.section-heading {
+    margin-top: 75px;
+    font-size: 3em;
+    color: rgba(0, 0, 0, 0.9);
+}
+
+.lead{
+  text-align: left;
+  margin-left: 50px;
+}
+
+.grayscale {
+  filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale"); /* Firefox 10+, Firefox on Android */
+  filter: gray; /* IE6-9 */
+  -webkit-filter: grayscale(1); /* Google Chrome, Safari 6+ & Opera 15+ */
+  -moz-filter: grayscale(100%);
+  -ms-filter: grayscale(100%);
+  -o-filter: grayscale(100%);
+  filter: grayscale(100%);
+}  
+.grayscale:hover {
+    filter: none;
+    -webkit-filter: grayscale(0);
+}
+/*profile picture*/
+.img-circle {
+  margin-top: 150px;
+  border: 1px outset rgba(255, 255, 255, 0.3);
+  box-shadow: 1px 1px 1px rgba(0,0,0,0.6);
+
+}
+/* end about*/
+
+/* portfolio page*/
+
+
+.col-md-4 {
+  overflow: hidden;
+  border: 1px outset rgba(255, 255, 255, 0.6);
+  background: rgba(0, 0, 0, 0.6);
+  border-radius: 1%;
+  text-align: center;
+  box-shadow: 2px 3px 2px rgba(0,0,0,0.3);
+  text-shadow: 1px 2px 1px rgba(0,0,0,0.3);
+  cursor: pointer;
+  /*height: 350px;*/
+}
+.col-md-4:hover {
+  transition: 0.5s;
+  box-shadow: 5px 10px 5px rgba(0,0,0,0.9);  
+}
+/* end portfolio*/
+
+
+/*contact*/
+
+.banner ul {
+    margin-bottom: 0;
+}
+
+.banner-social-buttons {
+    float: right;
+    margin-top: 0;
+    text-align: left;
+}
+
+
+ul.banner-social-buttons > li {
+        display: block;
+        margin-bottom: 20px;
+        margin-right: 60px;
+        padding: 0;
+    }
+
+ul.banner-social-buttons > li:last-child {
+  margin-bottom: 0;
+}
+
+h2.connect {
+   margin: 0;
+   color: black;
+}
+/*end contact*/
+
+/*footer {
+    padding: 50px 0;
+    background: rgba(192, 192, 192, 0.9);
+}*/
+
+
+
