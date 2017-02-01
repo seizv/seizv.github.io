@@ -19,7 +19,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: "Сomic Sans MS" Cursive;
+    font-family: 'Nunito';
     font-weight: 600;
 }
 
@@ -72,19 +72,19 @@ color: #000;
   /* Defining each section background and styles
   * --------------------------------------- */
   #section0{
-    background-image: url(fon_home.jpg);
+    background-image: url(../img/fon_0.jpg);
     padding: 6% 0 0 0;
   }
   #section1{
-    background-image: url(fon4.jpg);
+    background-image: url(../img/fon_1.jpg);
     padding: 0% 0 0 0;
   }
   #section2{
-    background-image: url(fon1.jpg);
+    background-image: url(../img/fon_2.jpg);
     padding: 0% 0 0 0;
   }
   #section3{
-    background-image: url(contact3new.jpg);
+    background-image: url(../img/fon_3.jpg);
     padding: 0% 0 0 0;
   }
 
@@ -157,6 +157,7 @@ h2.section-heading {
 .lead{
   text-align: left;
   margin-left: 50px;
+  font-weight: 600;
 }
 
 .grayscale {
@@ -167,7 +168,7 @@ h2.section-heading {
   -ms-filter: grayscale(100%);
   -o-filter: grayscale(100%);
   filter: grayscale(100%);
-}  
+}
 .grayscale:hover {
     filter: none;
     -webkit-filter: grayscale(0);
@@ -182,17 +183,14 @@ h2.section-heading {
 /* end about*/
 
 /* portfolio page*/
-
-
 .col-md-4 {
   overflow: hidden;
   border: 1px outset rgba(255, 255, 255, 0.6);
-  background: rgba(0, 0, 0, 0.6);
+  background: rgba(0, 0, 0, 0.9);
   border-radius: 1%;
   text-align: center;
   box-shadow: 2px 3px 2px rgba(0,0,0,0.3);
   text-shadow: 1px 2px 1px rgba(0,0,0,0.3);
-  cursor: pointer;
   /*height: 350px;*/
 }
 .col-md-4:hover {
@@ -203,7 +201,6 @@ h2.section-heading {
 
 
 /*contact*/
-
 .banner ul {
     margin-bottom: 0;
 }
@@ -232,10 +229,9 @@ h2.connect {
 }
 /*end contact*/
 
-/*footer {
+/*
+footer {
     padding: 50px 0;
     background: rgba(192, 192, 192, 0.9);
-}*/
-
-
-
+}
+*/
